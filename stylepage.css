@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'segoe_ui';
+    src: url('segoe_ui.ttf');
+    }
+@font-face {
+    font-family: 'segoe_ui_bold';
+    src: url('segoe_ui_bold.ttf');
+    }
+
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'segoe_ui', serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #ffffff;
+    background: #515f68;
+    display: block;
+}
+
+header {
+    height: 150px;
+    background: rgba(53, 63, 70, 0.65);
+    display: block;
+    font-size: 100%;
+    position: relative;
+    z-index: 500;
+}
+
+header .menu {
+    width: 1170px;
+    margin-left: 20%;
+    margin-right: 20%;
+    word-spacing: 20px;
+}
+
+header .menu .logo {
+    font-family: 'segoe_ui_bold', serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-top: 45px;
+    float: left;
+}
+
+header .menu .logo span {
+    color: #4bcaff;
+}
+
+header .menu .barre_nav {
+    padding-top: 65px;
+    float: right;
+    display: block;
+    font-family: 'segoe_ui_bold', serif;
+    text-transform: uppercase;
+    text-align: right;
+    padding-top: 45px;
+}
+
+header .menu .barre_nav .contenu_barre_nav {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    flex-direction: row;
+}
+
+header .menu .barre_nav .contenu_barre_nav span {
+    display: block;
+    color: #4bcaff;
+    padding: 11px 18px;
+    border: 1px solid #4bcaff;
+    font: inherit;
+    flex-direction: row;
+}
+
+.acceuil {
+    padding: 360px 0;
+    background: url("ble.png") no-repeat;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    vertical-align: baseline;
+    text-align: center;
+}
+
+.acceuil p .citation1{
+    font-family: 'segoe_ui', serif;
+    font-weight: 2px;
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+    background:  rgba(53, 63, 70, 0.65);
+    padding: 16px 22px;
+    vertical-align: baseline;
+}
+
+.acceuil p .citation2{
+    font-family: 'segoe_ui', serif;
+    font-weight: 2px;
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+    background:  rgba(53, 63, 70, 0.65);
+    padding: 16px 22px;
+    vertical-align: baseline;
+}
+
+.services{
+    display: flex;
+    
+
+}
